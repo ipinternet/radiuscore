@@ -1,0 +1,9 @@
+/vendor
+/node_modules
+/public/build
+/storage/*.key
+/.idea
+/.vscode
+.phpunit.result.cache
+.phpstan.cache
+coverage
