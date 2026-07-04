@@ -2053,6 +2053,41 @@ return [
   ),
 ); },
 	'dependencies' => array (
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\DataTransferObject.php' => 
+  array (
+    'fileHash' => '16417e0f5d7aa0ef0384d1f8abba9e660f7db67d8bda16721a0ae162a7487b59',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\DomainService.php' => 
+  array (
+    'fileHash' => 'a07603f8dc3a7c2e201cc39ea14dcf92f2494f636390e77acadd1f68a0cd2425',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\HasIdentity.php' => 
+  array (
+    'fileHash' => '493b46b2527cc724b77cc3cd06df194b87acb2c02a386e2b623a853af1d89412',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\Repository.php' => 
+  array (
+    'fileHash' => 'dc74b08a7f4c9af42b1282428f6c33d7d475f814000fa9f972824411d9e5d6f2',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\ValueObject.php' => 
+  array (
+    'fileHash' => 'b1fc6fbe91f17429790d2c190be34a2f002d7fc5bd4f7ae69ef3817a4f956dda',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
   'C:\\xampp\\htdocs\\radiuscore\\app\\Http\\Controllers\\Controller.php' => 
   array (
     'fileHash' => '25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1',
@@ -2134,8 +2169,225 @@ return [
   array (
     0 => 'phpunit/phpunit',
   ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\DataTransferObject.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\DomainService.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\HasIdentity.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\Repository.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\ValueObject.php' => 
+  array (
+  ),
 ),
 	'exportedNodesCallback' => static function (): array { return array (
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\DataTransferObject.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedInterfaceNode::__set_state(array(
+       'name' => 'App\\Core\\Contracts\\DataTransferObject',
+       'phpDoc' => NULL,
+       'extends' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'toArray',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Convert the DTO to an array representation.
+     *
+     * @return array<string, mixed>
+     */',
+             'namespace' => 'App\\Core\\Contracts',
+             'uses' => 
+            array (
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\DomainService.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedInterfaceNode::__set_state(array(
+       'name' => 'App\\Core\\Contracts\\DomainService',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * Marker interface for application and domain services.
+ */',
+         'namespace' => 'App\\Core\\Contracts',
+         'uses' => 
+        array (
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'extends' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\HasIdentity.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedInterfaceNode::__set_state(array(
+       'name' => 'App\\Core\\Contracts\\HasIdentity',
+       'phpDoc' => NULL,
+       'extends' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'id',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Return the unique identifier for the object.
+     */',
+             'namespace' => 'App\\Core\\Contracts',
+             'uses' => 
+            array (
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string|int',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\Repository.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedInterfaceNode::__set_state(array(
+       'name' => 'App\\Core\\Contracts\\Repository',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * Marker interface for repository implementations.
+ *
+ * Repositories encapsulate persistence concerns and provide
+ * access to domain aggregates.
+ */',
+         'namespace' => 'App\\Core\\Contracts',
+         'uses' => 
+        array (
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'extends' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\ValueObject.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedInterfaceNode::__set_state(array(
+       'name' => 'App\\Core\\Contracts\\ValueObject',
+       'phpDoc' => NULL,
+       'extends' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'equals',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Compare two value objects for equality.
+     */',
+             'namespace' => 'App\\Core\\Contracts',
+             'uses' => 
+            array (
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'bool',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'other',
+               'type' => 'self',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+    )),
+  ),
   'C:\\xampp\\htdocs\\radiuscore\\app\\Http\\Controllers\\Controller.php' => 
   array (
     0 => 
