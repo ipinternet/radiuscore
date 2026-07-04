@@ -66,3 +66,24 @@ docs/adr
 ## License
 
 Commercial.
+
+
+Project Overview
+
+Requirements
+
+Technology Stack
+
+Installation
+
+Development Workflow
+
+Documentation
+
+Quality Checks
+
+Roadmap
+
+License
+
+Contributing
