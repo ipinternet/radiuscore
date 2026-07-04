@@ -2,8 +2,8 @@
 /node_modules
 /public/build
 /storage/*.key
-/.idea
-/.vscode
+.idea/
+.vscode/
 .phpunit.result.cache
 .phpstan.cache
-coverage
+coverage/

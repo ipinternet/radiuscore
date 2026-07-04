@@ -1,5 +1,0 @@
-Supported versions
-
-Security reporting process
-
-Disclosure policy
