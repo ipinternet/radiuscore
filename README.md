@@ -1,35 +1,68 @@
 # RadiusCore
 
-Modern ISP Management Platform built with Laravel 13, Filament v5 and FreeRADIUS.
+> Enterprise ISP Management Platform built with Laravel 13, Filament v5 and FreeRADIUS.
 
-## Requirements
+---
 
-PHP 8.4
+## Vision
 
-Laravel 13
+RadiusCore is a modern OSS/BSS platform for Internet Service Providers.
 
-MySQL 8+
+The platform provides a modular architecture for:
 
-Redis
+- Customer Management
+- FreeRADIUS Management
+- MikroTik Integration
+- PPPoE & Hotspot
+- Billing
+- Voucher Management
+- Network Monitoring
+- Automation
+- Analytics
 
-Docker
+---
 
-## Goals
+## Technology
 
-• Modular Architecture
+| Component | Version |
+|-----------|---------|
+| PHP | 8.4 |
+| Laravel | 13 |
+| Filament | 5 |
+| Livewire | 4 |
+| MySQL | 8 |
+| Redis | Latest |
+| Pest | Latest |
 
-• CQRS
+---
 
-• Domain Driven Design
+## Repository Structure
 
-• Filament v5
+app/
+docs/
+blueprints/
+docker/
+scripts/
+tests/
 
-• FreeRADIUS
+---
 
-• MikroTik
+## Development
 
-• ISP Billing
+See:
+
+docs/development
+
+---
 
 ## Documentation
 
-See /docs
+Architecture Decision Records are located under:
+
+docs/adr
+
+---
+
+## License
+
+Commercial.
