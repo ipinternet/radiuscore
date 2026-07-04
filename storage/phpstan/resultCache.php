@@ -2088,6 +2088,83 @@ return [
     array (
     ),
   ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\AuthorizationException.php' => 
+  array (
+    'fileHash' => '659a6a97aeea152591069ecd1d605f9912f045ea169bc6797c825e49bdab7712',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\BusinessException.php' => 
+  array (
+    'fileHash' => 'a648f2a3db340056c15793338a9387c3819a4eebc3034699cd49e61afc44bb71',
+    'dependentFiles' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ConflictException.php',
+      1 => 'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ValidationException.php',
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ConflictException.php' => 
+  array (
+    'fileHash' => '6d8f9bc2b769e4ece6814c7c314977cb5cebd1b0869c126035fc2ce36fc67312',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\RadiusCoreException.php' => 
+  array (
+    'fileHash' => 'a7f0440bb4ed3fe6d99c47f9f868337f8e64416d52ca751dd70ada0fe6fc2c6e',
+    'dependentFiles' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\AuthorizationException.php',
+      1 => 'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\BusinessException.php',
+      2 => 'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ConflictException.php',
+      3 => 'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ResourceNotFoundException.php',
+      4 => 'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ValidationException.php',
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ResourceNotFoundException.php' => 
+  array (
+    'fileHash' => '71e693aceb262ca0901ad827bdc9087d4af30eea95763239bf7c8630ce5ac6d3',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ValidationException.php' => 
+  array (
+    'fileHash' => 'c5a87432d2973b3b16437388c58646ee1f4271e1cddd2f4c787258e976bf800a',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\FailureResult.php' => 
+  array (
+    'fileHash' => 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\Result.php' => 
+  array (
+    'fileHash' => 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\SuccessResult.php' => 
+  array (
+    'fileHash' => 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\ValidationResult.php' => 
+  array (
+    'fileHash' => 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
   'C:\\xampp\\htdocs\\radiuscore\\app\\Http\\Controllers\\Controller.php' => 
   array (
     'fileHash' => '25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1',
@@ -2182,6 +2259,36 @@ return [
   array (
   ),
   'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Contracts\\ValueObject.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\FailureResult.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\Result.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\SuccessResult.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\ValidationResult.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\AuthorizationException.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\BusinessException.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ConflictException.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\RadiusCoreException.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ResourceNotFoundException.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ValidationException.php' => 
   array (
   ),
 ),
@@ -2385,6 +2492,162 @@ return [
           array (
           ),
         )),
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\AuthorizationException.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Core\\Exceptions\\AuthorizationException',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'App\\Core\\Exceptions\\RadiusCoreException',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\BusinessException.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Core\\Exceptions\\BusinessException',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'App\\Core\\Exceptions\\RadiusCoreException',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ConflictException.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Core\\Exceptions\\ConflictException',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'App\\Core\\Exceptions\\BusinessException',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\RadiusCoreException.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Core\\Exceptions\\RadiusCoreException',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Exception',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ResourceNotFoundException.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Core\\Exceptions\\ResourceNotFoundException',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'App\\Core\\Exceptions\\RadiusCoreException',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ValidationException.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Core\\Exceptions\\ValidationException',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'App\\Core\\Exceptions\\BusinessException',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
       ),
     )),
   ),

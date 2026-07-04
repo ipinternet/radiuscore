@@ -123,5 +123,141 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       array (
       ),
     ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\FailureResult.php' => 
+    array (
+      0 => 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
+      1 => 
+      array (
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\Result.php' => 
+    array (
+      0 => 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
+      1 => 
+      array (
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\SuccessResult.php' => 
+    array (
+      0 => 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
+      1 => 
+      array (
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Results\\ValidationResult.php' => 
+    array (
+      0 => 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
+      1 => 
+      array (
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\AuthorizationException.php' => 
+    array (
+      0 => '659a6a97aeea152591069ecd1d605f9912f045ea169bc6797c825e49bdab7712',
+      1 => 
+      array (
+        0 => 'app\\core\\exceptions\\authorizationexception',
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\BusinessException.php' => 
+    array (
+      0 => 'a648f2a3db340056c15793338a9387c3819a4eebc3034699cd49e61afc44bb71',
+      1 => 
+      array (
+        0 => 'app\\core\\exceptions\\businessexception',
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ConflictException.php' => 
+    array (
+      0 => '6d8f9bc2b769e4ece6814c7c314977cb5cebd1b0869c126035fc2ce36fc67312',
+      1 => 
+      array (
+        0 => 'app\\core\\exceptions\\conflictexception',
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\RadiusCoreException.php' => 
+    array (
+      0 => 'a7f0440bb4ed3fe6d99c47f9f868337f8e64416d52ca751dd70ada0fe6fc2c6e',
+      1 => 
+      array (
+        0 => 'app\\core\\exceptions\\radiuscoreexception',
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ResourceNotFoundException.php' => 
+    array (
+      0 => '71e693aceb262ca0901ad827bdc9087d4af30eea95763239bf7c8630ce5ac6d3',
+      1 => 
+      array (
+        0 => 'app\\core\\exceptions\\resourcenotfoundexception',
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\xampp\\htdocs\\radiuscore\\app\\Core\\Exceptions\\ValidationException.php' => 
+    array (
+      0 => 'c5a87432d2973b3b16437388c58646ee1f4271e1cddd2f4c787258e976bf800a',
+      1 => 
+      array (
+        0 => 'app\\core\\exceptions\\validationexception',
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
   ),
 ));
